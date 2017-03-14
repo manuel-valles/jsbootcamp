@@ -4,7 +4,7 @@ Containers for storing data/information.
 
 *var fistName = 'MaNu';*
 
-*Var favoriteNumber = 4;*
+*var favoriteNumber = 4;*
 
 
 **2. Strings:**
@@ -13,7 +13,7 @@ Any text inside (single/double) quotes.
 
 *'Hello World!'*
 
-*'4'*
+*"4"*
 
 **3. Functions (arguments, return):**
 
