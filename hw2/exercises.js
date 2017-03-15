@@ -81,12 +81,8 @@ function isPrime(num) {
   //hint: a prime number is only evenly divisible by itself and 1
   //hint2: you can solve this using a for loop
   //note: 0 and 1 are NOT considered prime numbers
-  var arr = [];
   for (var i=2; i<num; i++){
-    arr.push(i);
-  }
-  for (var j=0; j<arr.length; j++){
-    if (num%arr[j]===0){
+    if (num%i===0){
       return false;
     }
   }
